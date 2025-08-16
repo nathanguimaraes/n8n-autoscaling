@@ -7,6 +7,7 @@ RUN apt-get update && \
     curl \
     jq \
     docker.io \
+    docker-cli \
     && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
